@@ -91,8 +91,8 @@ def main():
         )
 
     batchsize = args.batchsize
-    if args.cpu:
-        batchsize = 1
+    # if args.cpu:
+    #     batchsize = 1
 
     logger.info("Load model")
 
